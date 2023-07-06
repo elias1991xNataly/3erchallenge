@@ -14,7 +14,7 @@ export default function Header({ children }) {
 	}
 
 	const deletetoCart = (pokemon) => {
-		const newCart = cartPokemon.filter(pokemonFav => pokemonFav !== pokemon)
+		const newCart = cartPokemon.filter(pokemonDel => pokemonDel !== pokemon)
 		setCartPokemon(newCart)
 	}
 

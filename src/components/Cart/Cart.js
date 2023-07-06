@@ -11,7 +11,7 @@ const Cart = () => {
 
 
 
-		return (<div>
+		return (<div >
 			<h1>POKECART</h1>
 			{cartPokemon.map((pokemon, index) => {
 
